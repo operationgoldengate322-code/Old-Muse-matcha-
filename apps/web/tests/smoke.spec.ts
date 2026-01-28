@@ -4,7 +4,7 @@ test("home page loads", async ({ page }) => {
   await page.goto("/");
   await expect(
     page.getByRole("heading", {
-      name: /Koyo Club delivers ritual-grade matcha/i,
+      name: /Old Muse Matcha delivers ritual-grade matcha/i,
     })
   ).toBeVisible();
 });

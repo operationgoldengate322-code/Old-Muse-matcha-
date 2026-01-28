@@ -41,7 +41,7 @@ export function OutreachComposer({ suppliers }: { suppliers: SupplierOption[] })
     defaultValues: {
       brandVoice:
         "Warm, thoughtful, minimal. Prioritize relationships and clarity over sales.",
-      goal: "Introduce Koyo Club and request samples + MOQ details.",
+      goal: "Introduce Old Muse Matcha and request samples + MOQ details.",
     },
   });
   const supplierId = watch("supplierId");

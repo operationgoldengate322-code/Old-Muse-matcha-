@@ -25,7 +25,7 @@ export default async function OwnerLayout({
         <div className="mx-auto flex h-16 w-full max-w-6xl items-center justify-between px-4">
           <div>
             <p className="text-sm text-muted-foreground">Owner portal</p>
-            <p className="text-lg font-semibold">Koyo Club</p>
+            <p className="text-lg font-semibold">Old Muse Matcha</p>
           </div>
           <nav className="hidden items-center gap-4 text-sm text-muted-foreground md:flex">
             {ownerNav.map((item) => (

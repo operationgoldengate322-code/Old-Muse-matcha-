@@ -25,8 +25,8 @@ export default function HowItWorksPage() {
           A matcha ritual delivered monthly.
         </h1>
         <p className="text-muted-foreground">
-          Koyo Club blends small-batch sourcing with thoughtful logistics so
-          each drop arrives on time.
+          Old Muse Matcha blends small-batch sourcing with thoughtful logistics
+          so each drop arrives on time.
         </p>
       </div>
 

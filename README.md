@@ -1,6 +1,6 @@
-# Koyo Club
+# Old Muse Matcha
 
-Koyo Club is a curated matcha subscription storefront paired with a private,
+Old Muse Matcha is a curated matcha subscription storefront paired with a private,
 owner-only sourcing hub. The public site handles marketing, subscriptions, and
 account management. The owner portal manages suppliers, outreach, research, and
 tasks.

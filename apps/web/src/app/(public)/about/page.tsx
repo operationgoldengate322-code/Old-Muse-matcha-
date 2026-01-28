@@ -4,10 +4,12 @@ export default function AboutPage() {
   return (
     <div className="mx-auto w-full max-w-5xl px-4 py-14">
       <div className="space-y-4">
-        <h1 className="text-3xl font-semibold tracking-tight">About Koyo Club</h1>
+        <h1 className="text-3xl font-semibold tracking-tight">
+          About Old Muse Matcha
+        </h1>
         <p className="text-muted-foreground">
-          Koyo Club curates matcha with a hospitality mindset: source with care,
-          brew with clarity, and deliver a calm monthly ritual.
+          Old Muse Matcha curates matcha with a hospitality mindset: source with
+          care, brew with clarity, and deliver a calm monthly ritual.
         </p>
       </div>
 

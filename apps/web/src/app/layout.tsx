@@ -15,11 +15,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Koyo Club",
-    template: "%s | Koyo Club",
+    default: "Old Muse Matcha",
+    template: "%s | Old Muse Matcha",
   },
   description:
-    "Koyo Club is a curated matcha subscription with an owner-only sourcing hub.",
+    "Old Muse Matcha is a curated matcha subscription with an owner-only sourcing hub.",
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"
   ),

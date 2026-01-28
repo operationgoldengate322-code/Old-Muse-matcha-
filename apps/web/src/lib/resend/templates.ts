@@ -5,13 +5,13 @@ type EmailTemplate = {
 
 export function welcomeEmail(): EmailTemplate {
   return {
-    subject: "Welcome to Koyo Club",
+    subject: "Welcome to Old Muse Matcha",
     html: `
       <div style="font-family: Arial, sans-serif; line-height: 1.6;">
-        <h2>Welcome to Koyo Club</h2>
+        <h2>Welcome to Old Muse Matcha</h2>
         <p>Your matcha ritual is confirmed. We will send your first drop details soon.</p>
         <p>Manage your subscription anytime from your account portal.</p>
-        <p>Warmly,<br/>Koyo Club</p>
+        <p>Warmly,<br/>Old Muse Matcha</p>
       </div>
     `,
   };
@@ -19,7 +19,7 @@ export function welcomeEmail(): EmailTemplate {
 
 export function upcomingDropEmail(month: string): EmailTemplate {
   return {
-    subject: `Your ${month} Koyo Club drop is on the way`,
+    subject: `Your ${month} Old Muse Matcha drop is on the way`,
     html: `
       <div style="font-family: Arial, sans-serif; line-height: 1.6;">
         <h2>Upcoming drop</h2>
@@ -32,7 +32,7 @@ export function upcomingDropEmail(month: string): EmailTemplate {
 
 export function shippingConfirmationEmail(trackingUrl: string): EmailTemplate {
   return {
-    subject: "Your Koyo Club order has shipped",
+    subject: "Your Old Muse Matcha order has shipped",
     html: `
       <div style="font-family: Arial, sans-serif; line-height: 1.6;">
         <h2>Shipping confirmation</h2>

@@ -47,9 +47,9 @@ export async function POST(request: Request) {
     if (!parsed.success) {
       console.warn("[ai:outreach] invalid-json", { requestId, error: parsed.error });
       return NextResponse.json({
-        subject: "Hello from Koyo Club",
+        subject: "Hello from Old Muse Matcha",
         body:
-          "Hi there,\n\nWe are Koyo Club, a curated matcha subscription brand. We would love to learn more about your matcha offerings and minimum order quantities. If you are open to it, could you share a catalog or sample options?\n\nWarmly,\nKoyo Club",
+          "Hi there,\n\nWe are Old Muse Matcha, a curated matcha subscription brand. We would love to learn more about your matcha offerings and minimum order quantities. If you are open to it, could you share a catalog or sample options?\n\nWarmly,\nOld Muse Matcha",
       });
     }
 

@@ -21,7 +21,7 @@ describe("AI schemas", () => {
 
   it("validates outreach output", () => {
     const parsed = outreachSchema.safeParse({
-      subject: "Hello from Koyo Club",
+      subject: "Hello from Old Muse Matcha",
       body: "Hi there, we would love to learn more about your matcha.",
     });
     expect(parsed.success).toBe(true);

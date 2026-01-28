@@ -36,7 +36,7 @@ export default function HomePage() {
             Curated matcha + owner sourcing hub
           </span>
           <h1 className="text-4xl font-semibold tracking-tight md:text-5xl">
-            Koyo Club delivers ritual-grade matcha on a calm, monthly cadence.
+            Old Muse Matcha delivers ritual-grade matcha on a calm, monthly cadence.
           </h1>
           <p className="text-lg text-muted-foreground">
             Subscribe to matcha drops built for daily practice and supported by a

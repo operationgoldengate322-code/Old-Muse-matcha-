@@ -16,7 +16,7 @@ export function SiteHeader() {
     <header className="border-b border-border bg-background">
       <div className="mx-auto flex h-16 w-full max-w-6xl items-center justify-between px-4">
         <Link href="/" className="text-lg font-semibold tracking-tight">
-          Koyo Club
+          Old Muse Matcha
         </Link>
         <nav className="hidden items-center gap-6 text-sm text-muted-foreground md:flex">
           {navItems.map((item) => (
